@@ -1,0 +1,5 @@
+nb1 = int(input())
+nb2 = int(input())
+nb3 = int(input())
+high = max(nb1,nb2,nb3)
+print(high)
