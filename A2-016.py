@@ -1,5 +1,3 @@
-# wletter,wnumber= input().split() 
-# letter,number = input().split()
 
 lotto = input()
 win = input()
@@ -20,11 +18,6 @@ elif lotto[2:7] != win[2:7] and lotto[0] == win[0] :
     print(20)
 else:
     print(0)
-# if letter==wletter and number==wnumber:
-#      print(1000000)
-# if letter!=wletter and number==wnumber:
-#      print(100000)
-# if letter==wletter and number==wnumber[-2:]:
-#      print(1000)
+
 
 
