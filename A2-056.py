@@ -1,14 +1,14 @@
-n = int(input())
-codes = list(map(int, input().split()))
+num =int(input())
+codes =list(map(int,input().split()))
 
-counts = {}
+count = {}
 for code in codes:
-    counts[code] = counts.get(code, 0) + 1
+    count[code] = count.get(code, 0) + 1
 
-rare_codes = [code for code, count in counts.items() if count == 1]
-rare_codes.sort()
+race_codes = [code for code, count in count.items() if count == 1]
+race_codes.sort()
 
-if rare_codes:
-    print(' '.join(str(code) for code in rare_codes))
+if race_codes:
+    print(' '.join(map(str, race_codes)))
 else:
     print()
